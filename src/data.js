@@ -42,3 +42,39 @@ export const categories = [
     img:"https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     title:"SUIT COATS"}
 ];
+
+
+export const popularProducts = [
+    {
+        id:1,
+        img:"https://images.pexels.com/photos/7258947/pexels-photo-7258947.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        id:2,
+        img:"https://images.pexels.com/photos/5442455/pexels-photo-5442455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        id:3,
+        img:"https://images.pexels.com/photos/13325937/pexels-photo-13325937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        id:4,
+        img:"https://images.pexels.com/photos/5442469/pexels-photo-5442469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        id:5,
+        img:"https://images.pexels.com/photos/10976654/pexels-photo-10976654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        id:6,
+        img:"https://images.pexels.com/photos/10983781/pexels-photo-10983781.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        id:7,
+        img:"https://images.pexels.com/photos/8891961/pexels-photo-8891961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        id:8,
+        img:"https://images.pexels.com/photos/8891953/pexels-photo-8891953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    }
+]
