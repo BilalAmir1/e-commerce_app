@@ -1,4 +1,4 @@
-import { styled } from "@material-ui/core";
+import styled from 'styled-components'
 
 const Container = styled.div`
   color: black;
@@ -9,8 +9,8 @@ const Container = styled.div`
   overflow: hidden;
 `;
 
-export const CategoryItem = () => {
+export const CategoryItem = ({item}) => {
   return (
-    <div>CategoryItem</div>
+    <Container>HEllo</Container>
   )
 }

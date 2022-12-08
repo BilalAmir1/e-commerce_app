@@ -1,18 +1,19 @@
 import { categories } from '../data';
-import { styled } from "@material-ui/core";
+import styled from 'styled-components'
+import { CategoryItem } from './CategoryItem';
 
 const Container = styled.div`
-  color: black;
-  width: 100%;
-  height: 100vh;
   display: flex;
-  position: relative;
-  overflow: hidden;
+  padding: 20px;
 `;
 
 
 export const Categories = () => {
   return (
-    <div>Categories</div>
+    <Container>
+      {categories.map(
+        item=>(<CategoryItem item = {item}/>)
+      )}
+    </Container>
   )
 }
