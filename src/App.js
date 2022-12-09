@@ -1,8 +1,8 @@
+import { Cart } from "./pages/Cart";
 import HomePage from "./pages/Home";
-import { Register } from "./pages/Register";
 
 const App = () => {
-  return <Register/>;
+  return <Cart/>;
 };
 
 export default App;
